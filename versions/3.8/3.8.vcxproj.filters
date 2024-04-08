@@ -14,33 +14,30 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Source Files\spine">
-      <UniqueIdentifier>{c6ab8c9a-f48f-4d43-ba9e-398d862cc7cf}</UniqueIdentifier>
+      <UniqueIdentifier>{ac7ee3fe-91b5-45b8-b33a-f8a73005dfdc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
+    <ClCompile Include="..\..\src\font.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\spine\TransformConstraintTimeline.cpp">
-      <Filter>Source Files\spine</Filter>
+    <ClCompile Include="..\..\src\imgui.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\spine\TranslateTimeline.cpp">
-      <Filter>Source Files\spine</Filter>
+    <ClCompile Include="..\..\src\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\spine\Triangulator.cpp">
-      <Filter>Source Files\spine</Filter>
+    <ClCompile Include="..\..\src\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\spine\TwoColorTimeline.cpp">
-      <Filter>Source Files\spine</Filter>
+    <ClCompile Include="..\..\src\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\spine\Updatable.cpp">
-      <Filter>Source Files\spine</Filter>
+    <ClCompile Include="..\..\src\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\spine\VertexAttachment.cpp">
-      <Filter>Source Files\spine</Filter>
-    </ClCompile>
-    <ClCompile Include="src\spine\VertexEffect.cpp">
-      <Filter>Source Files\spine</Filter>
+    <ClCompile Include="..\..\src\imgui-SFML.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\spine\Animation.cpp">
       <Filter>Source Files\spine</Filter>
@@ -207,25 +204,28 @@
     <ClCompile Include="src\spine\TransformConstraintData.cpp">
       <Filter>Source Files\spine</Filter>
     </ClCompile>
-    <ClCompile Include="src\imgui.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\spine\TransformConstraintTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
     </ClCompile>
-    <ClCompile Include="src\imgui_demo.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\spine\TranslateTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
     </ClCompile>
-    <ClCompile Include="src\imgui_draw.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\spine\Triangulator.cpp">
+      <Filter>Source Files\spine</Filter>
     </ClCompile>
-    <ClCompile Include="src\imgui_tables.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\spine\TwoColorTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
     </ClCompile>
-    <ClCompile Include="src\imgui_widgets.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\spine\Updatable.cpp">
+      <Filter>Source Files\spine</Filter>
     </ClCompile>
-    <ClCompile Include="src\imgui-SFML.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\spine\VertexAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
     </ClCompile>
-    <ClCompile Include="src\font.c">
+    <ClCompile Include="src\spine\VertexEffect.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

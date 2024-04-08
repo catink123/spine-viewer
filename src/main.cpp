@@ -7,7 +7,8 @@
 #include <imgui-SFML.h>
 
 #include <filesystem>
-#include "font.c"
+#include "../../../src/font.c"
+
 namespace fs = std::filesystem;
 
 const unsigned int RECORDING_PATH_SIZE = 1024;

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\spine">
+      <UniqueIdentifier>{ac7ee3fe-91b5-45b8-b33a-f8a73005dfdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui-SFML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Animation.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\AnimationState.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\AnimationStateData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Atlas.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\AtlasAttachmentLoader.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Attachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\AttachmentLoader.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\AttachmentTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Bone.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\BoneData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\BoundingBoxAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\ClippingAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\ColorTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Constraint.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\CurveTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\DeformTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\DrawOrderTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Event.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\EventData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\EventTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Extension.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\IkConstraint.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\IkConstraintData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\IkConstraintTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Json.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\LinkedMesh.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\MathUtil.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\MeshAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\PathAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\PathConstraint.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\PathConstraintData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\PathConstraintMixTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\PathConstraintPositionTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\PathConstraintSpacingTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\PointAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\RegionAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\RotateTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\RTTI.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\ScaleTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\ShearTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Skeleton.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\SkeletonBinary.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\SkeletonBounds.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\SkeletonClipping.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\SkeletonData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\SkeletonJson.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Skin.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Slot.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\SlotData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\SpineObject.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\spine-sfml.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\TextureLoader.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Timeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\TransformConstraint.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\TransformConstraintData.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\TransformConstraintTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\TranslateTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Triangulator.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\TwoColorTimeline.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\Updatable.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\VertexAttachment.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spine\VertexEffect.cpp">
+      <Filter>Source Files\spine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

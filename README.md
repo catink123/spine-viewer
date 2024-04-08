@@ -4,10 +4,17 @@ This application allows you to view and record Spine skeletons.
 Inspired by [kiletw/SpineViewerWPF](https://github.com/kiletw/SpineViewerWPF). This project improves upon issues of the kiletw's ideas, such as general sluggishness and many many bugs.
 Currently works only on Windows.
 
+Supported Spine Editor versions of exported skeletons:
+* 3.7.xx
+* 3.8.xx
+* 4.0.xx
+* 4.1.xx
+
 ## Installing
 There are two ways of installing Spine Viewer: building from source and downloading prebuilt binaries.
 
-To build from source, clone this repository, open the solution in VS2022 and select Build -> Build All.
+To build from source, clone this repository, open the solution in VS2022 and select Build -> Build Solution. 
+Note: you may need to copy SFML DLL files to the build output directory in order for the executables to start. You can download them [here](https://www.sfml-dev.org/download/sfml/2.6.0/) (see the "Visual C++ 17 (2022) - 64-bit" variant).
 
 Prebuilt binaries are available in the [Releases](https://github.com/catink123/spine-viewer/releases) section.
 
@@ -16,16 +23,14 @@ Open up a terminal (Command Prompt, PowerShell, etc.) window in the application'
 
 Now, type this command to open Spine Viewer:
 ```
-$ spine-viewer.exe skeleton.atlas skeleton.skel
+$ sv-X.X.exe skeleton.atlas skeleton.skel
 ```
-where `skeleton.atlas` is the path to the Atlas file of your skeleton and `skeleton.skel` is the path to the .skel data-file of your skeleton.
+where `X.X` is the version of the Spine Editor used to export your skeleton, `skeleton.atlas` is the path to the Atlas file of your skeleton and `skeleton.skel` is the path to the .skel data-file of your skeleton.
 
 If you have a JSON data-file, specify the `--json` (or `-j`) flag before the data-file path:
 ```
-$ spine-viewer.exe skeleton.atlas --json skeleton.json
+$ sv-X.X.exe skeleton.atlas --json skeleton.json
 ```
-
-Note: only skeleton's exported with Spine 3.8.xx are supported at the moment.
 
 Press Enter and Spine Viewer should launch if no errors occur. If they do, they will show up in the terminal window you opened.
 
