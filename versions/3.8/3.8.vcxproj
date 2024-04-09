@@ -90,6 +90,12 @@
     <ClCompile Include="src\spine\VertexAttachment.cpp" />
     <ClCompile Include="src\spine\VertexEffect.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3.8.rc" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
